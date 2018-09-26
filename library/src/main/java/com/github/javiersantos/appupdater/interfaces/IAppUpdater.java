@@ -378,6 +378,8 @@ public interface IAppUpdater {
      */
     void start();
 
+    void showUpdateAvailable(Update update);
+
     /**
      * Stops the execution of AppUpdater.
      */
